@@ -8,9 +8,11 @@ _IMPORTANT!_ In this course, your code must be cross-platform. Follow these guid
 *   Do not use system-specific headers and libraries (e.g., `windows.h`).
 *   In your code, use forward slashes instead of back slashes for paths (`/` instead of `\`).
 
-Once you set up your environment properly, you should be able to run the code and see a teapot.
+Once you set up your environment properly, you should be able to run the code and see a teapot with a red square.
 
 ![](images/teapot.jpg)
+
+This is similar to the setup for COMP557 with the difference that this code also permits immediate mode drawing.
 
 First, download (clone) the repository, and then extract the zip file to a suitable folder. Then go to the section corresponding to your development environment.
 

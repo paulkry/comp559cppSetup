@@ -136,7 +136,7 @@ static void render()
 	MV->pushMatrix();
 	glUniformMatrix4fv(progIM->getUniform("P"), 1, GL_FALSE, &P->topMatrix()[0][0]);
 	glUniformMatrix4fv(progIM->getUniform("MV"), 1, GL_FALSE, &MV->topMatrix()[0][0]);
-	glColor3f(0.0f, 0.0f, 0.0f);
+	glColor3f(1.0f, 0.0f, 0.0f);
 	glBegin(GL_LINE_STRIP);
 	glVertex3d(-1.0, -1.0, 0.0);
 	glVertex3d( 1.0, -1.0, 0.0);
